@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name ="viewport" content="width=device-width, initial-scale= 1.0">
-		<title>Tom Hiddleston Fan Page</title> <!-- Para comentar -->
+		<title>Tom Hiddleston Fan Page</title> <!-- Título -->
 		<link rel="stylesheet" type="text/css" href="css/main.css"> <!-- Enlazamos Css para la versión desktop -->
 		<link rel="stylesheet" type="text/css" href="css/mobile.css"> <!-- Enlazamos Css para la versión mobile -->
 		<link rel="stylesheet" href="assets/icon/font-awesome.css"> <!-- Para comentar -->
@@ -22,31 +22,32 @@
 			<div class="col-4 hide"> <!-- Columna de en medio  -->
 				
 			</div>
-			<div class="col-4 hide"> <!-- Columna con el menú de navegación  -->
-				<nav class="menu" class="col-12">
+			<div class="col-4 hide"> <!-- Columna con el menú de navegación en desktop, oculto en mobile -->
+				<nav class="menu" class="col-12"> <!-- Nav del menú con 4 links clase col 3 para que ocupe el row proporcionalmente -->
 					<a class="col-3" href="#" >Home</a>	
 					<a class="col-3" href="#">About</a>	
 					<a class="col-3" href="#">Services</a>		
 					<a class="col-3" href="#">Contact</a>
 				</nav>
 			</div>			
-		</header>
-		<main class="col-12">
-			<section class="col-12 buss-name">
-				<div class="back">
-					<div class="buss-name">
-						<span id="name-page">Bussines Name or Tagline</span>
+		</header> <!-- Termina header -->
+		<!-- Inicia sección main -->
+		<main class="col-12"> <!-- main con clase col-12 para que ocupe todo el ancho del body, se forma con 3 secciones, cada una con un col-12 para que abarque el total del main -->
+			<section class="col-12"> <!-- Primer sección -->
+				<div class="back"> <!-- div para contener la imagen del fondo -->
+					<div class="buss-name"> <!-- div para contener el nombre/título de la página -->
+						<span id="name-page">Bussines Name or Tagline</span>  <!-- span para poner el texto -->
 					</div>					
 				</div>
 			</section>
-			<section class="col-12">
-				<div class="col-1">
+			<section class="col-12"> <!-- Segunda sección, se usan 3 columnas, una col-10 y 2 col-1 para dar espacio y centrado -->
+				<div class="col-1"> <!-- Div con primer columna-->
 					
 				</div>
-				<div class="col-10">
+				<div class="col-10"> <!-- div col-10 para ingresar contenido de texto, botón y dirección. Se divide en 2 columnas, col-8 y col-4 respectivamente -->
 					<div class="col-8">
-						<h1 class="text-black">What We Do</h1>
-						<p class="text-black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						<h1 class="text-black">What We Do</h1> 
+						<p class="text-black text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 							consequat. 		
