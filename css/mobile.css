@@ -1,0 +1,27 @@
+@media (max-width: 900px){
+
+	.col-8{
+		width: 100%;
+	}
+
+	.col-4{
+		width: 100%;	
+	}
+
+	.hide{
+		display: none;
+	}
+
+	.menu-box{
+		padding: 0 10px;
+   		text-align: center;
+   		text-decoration: none;
+	    display: inline-block;
+	    vertical-align: center;
+		color: #9A9DA0;
+		font-size: 20px;
+		border: 2px solid #9A9DA0;
+		border-radius: 3px; 
+		margin-left: 40%;
+	}
+}
