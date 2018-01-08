@@ -1,0 +1,198 @@
+*{
+	font-family: sans-serif;
+	color: #FFFFFF;
+}  
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+
+body{
+	margin: 0;
+	padding: 0; 
+}
+
+
+
+a:link, a:visited {
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: center;
+}
+
+
+a:hover, a:active {
+	text-shadow: 1px 1px white;
+} 
+
+img{
+	margin: 0 auto;
+	align-content: center;
+}
+
+.back{
+	max-width: 1920px;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url("https://dummyimage.com/1920x400/cccccc/969696.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+
+.container{
+	max-width: 1200px; 
+	margin: 0 auto; /*0 para quitar el margen por default, Auto para centrar cosas*/
+	background: white;
+}
+
+.menu{
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.row:before, 
+.row:after {
+	content: " ";
+	display: table;
+
+}
+
+.row:after{
+	clear: both;
+
+}
+
+[class*="col-"]{
+	float: left;
+	min-height: 40px;
+	margin: 0 auto;
+	/*padding: 10px;*/
+}
+.col-1{
+	width: 8.3333333333%; 
+}
+
+
+.col-3{
+	width: calc(25% - 20px);
+}
+
+
+.col-4{
+	width: calc(33.3333333333% - 44px);	
+	margin: 10px;	
+}
+
+
+
+.col-8{
+	width: calc(66.66666666666666% - 20px);
+	margin: 10px;
+}
+
+
+.col-10{
+	width: calc(83.3333333333% - 20px);
+	margin: 20px auto;
+}
+
+.col-11{
+	width: calc(91.66666666666666% - 20px);
+	background: #9C42D1;
+}
+
+
+.col-12{
+	width: 100%;
+	align-content: center;
+}
+
+.buss-name{
+	width: 100%;
+	height: 400px;
+	align-items: center;
+	text-align: center;
+}
+
+#name-page{
+	font-size: 100px;
+	margin: 0 auto;
+
+}
+
+
+.gray{
+	background: #343A40;
+}
+
+.copy{
+	align-items: center;
+	text-align: center;
+	margin: 50px;
+}
+
+.text-black{
+	color: #000000;
+}
+
+
+.card{
+	border: 2px solid #343A40;
+	border-radius: 5px;
+	margin: 10px;
+}
+
+.card-img{
+	width: 100%;
+}
+
+#btn{
+	background-color: #007BFF; 
+	color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 3px;
+
+}
+
+#btn:active, #btn:focus, #btn:hover{
+	background-color: #71AFF2;
+    text-decoration-style: bold;
+}
+
+.back-btn{
+	width: 100%; 
+	height: 60px;
+	background-color: #E8E1E1;
+	border-top: 2px solid #343A40; 
+	vertical-align: center;
+}
+
+.card-text{
+	padding: 0% 5%;
+	text-align: justify;
+}
+
+#mail{
+	padding: 0;
+	color: #007BFF;
+}
+#mail:active, #mail:focus, #mail:hover{
+	text-decoration: underline;
+}
+
+.star{	
+	font-style: bold;
+	font-size: 20px;
+}
