@@ -1,4 +1,4 @@
-#My Super Page
+# My Super Page 			
 		
 
 
@@ -7,18 +7,19 @@ Elaborar una página responsive, de tal manera que se tenga la versión desktop 
 Debe verse de la siguiente manera: 
 
 
-Versión desktop: 
+**Versión desktop:** 
 
 ![Desktop Version](./assets/images/desktop.png)
 
 
 
 
-Versión mobile: 
+**Versión mobile:**
+
 ![Mobile Version](./assets/images/responsive.png)
 
 
-##Proceso
+## Proceso
 
 		
 
